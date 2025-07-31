@@ -1,0 +1,119 @@
+{
+  "short_name": "CivilSoul",
+  "name": "CivilSoul - Social Service & Wellness Platform",
+  "description": "Join CivilSoul to make a positive impact through volunteering, mental health support, environmental conservation, and community service. Together, we build a better world.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["social", "health", "lifestyle", "education"],
+  "shortcuts": [
+    {
+      "name": "Mental Health Support",
+      "short_name": "Mental Health",
+      "description": "Access AI chatbot and counselling services",
+      "url": "/mental-health",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Volunteer Opportunities",
+      "short_name": "Volunteer",
+      "description": "Find and apply for volunteer opportunities",
+      "url": "/volunteering",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Community Blogs",
+      "short_name": "Blogs",
+      "description": "Read inspiring stories and community updates",
+      "url": "/blogs",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "My Certificates",
+      "short_name": "Certificates",
+      "description": "View your blockchain-verified achievements",
+      "url": "/certificates",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "CivilSoul Homepage on Desktop"
+    },
+    {
+      "src": "screenshot-narrow.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "CivilSoul Mobile Experience"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/contact?email=%s"
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
